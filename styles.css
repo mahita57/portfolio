@@ -1,15 +1,22 @@
+body {
+  background-color: #e6f0f2;
+}
 .header1{
-  background-color: #a5ecd7;
+  background-color: #597884;
   overflow: hidden;
+  font-size: 24px;
+  color: #eeeeee;
+  text-align: center;
+  font-family: Lucida Sans Unicode, Monaco, monospace;
 }
 .topnav {
-  background-color: #333;
+  background-color: #9eb9b3;
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -18,11 +25,21 @@
 
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #acc4ce;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #ecf4f3;
+  color: black;
+}
+.home{
+  background-color: #e6f0f2;
+  overflow: hidden;
+  font-size: 22px;
+  color: #000;
+  text-align: center;
+  font-family: Lucida Sans Unicode, Monaco, monospace;
+  padding: 10px;
+  margin-top: 200px;
 }
